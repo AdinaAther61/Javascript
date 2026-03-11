@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>cricket game</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bat Ball Stump Game</h1>
+
+    <button
+      onclick="
+        let computerchoice = generatecompchoice();
+
+        let resmsg = getresmsg('bat', computerchoice);
+
+      showresult('bat',computerchoice,resmsg);
+      "
+    >
+      bat
+    </button>
+    <button
+      onclick="
+        computerchoice = generatecompchoice();
+
+        resmsg = getresmsg('ball', computerchoice);
+
+         showresult('ball',computerchoice,resmsg);
+      "
+    >
+      ball
+    </button>
+    <button
+      onclick="
+        computerchoice = generatecompchoice();
+
+        // resmsg;
+        resmsg = getresmsg('stump', computerchoice);
+
+          showresult('stump',computerchoice,resmsg);
+      "
+    >
+      stump
+    </button>
+  </body>
+  <script>
+    //let computerchoice; yahan pe ye global variable bangaya hai isliye ham ise kahin bhi use krskte hain lekin agr ise main function ki definition mai define karoon gi to error through karega is liye we have to prefer return method over global variables
+
+    function generatecompchoice() {
+      let randomnumber = Math.random() * 3;
+      if (randomnumber > 0 && randomnumber <= 1) {
+        return "bat";
+      } else if (randomnumber > 1 && randomnumber <= 2) {
+        return "ball";
+      } else {
+        return "stump";
+      }
+    }
+    function getresmsg(usermove, computermove) {
+      if (usermove === "ball") {
+        if (computermove === "ball") {
+          return "its a tie";
+        } else if (computermove === "bat") {
+          return "computer win";
+        } else if (computermove === "stump") {
+          return "user win";
+        }
+      } else if (usermove === "bat") {
+        if (computermove === "ball") {
+          return "user won";
+        } else if (computermove === "bat") {
+          return "its a tie";
+        } else if (computermove === "stump") {
+          return "computer win";
+        }
+      } else if (usermove === "stump") {
+        if (computermove === "ball") {
+          return "computer won";
+        } else if (computermove === "bat") {
+          return "user win";
+        } else if (computermove === "stump") {
+          return "its a tie";
+        }
+      }
+    }
+    function showresult(usermove,computermove,res){
+      alert(
+          `yo have chosen ${usermove} computer choice is ${computermove} ${res}`,
+        );
+
+    }
+  </script>
+</html>
