@@ -45,12 +45,7 @@ This repository is my personal **JavaScript learning journal** — starting from
 
 ### 🚀 Mini Projects
 - ✅ To-Do List App
-- 🎲 Random Quote Generator
 - 🧮 Simple Calculator
-- ⏱️ Digital Clock
-- 🎨 Color Flipper
-- 📝 Character Counter
-- 🔍 More coming soon...
 
 </td>
 </tr>
@@ -113,19 +108,6 @@ I'm learning JavaScript step by step and using this repo to track real progress 
 ---
 
 <div align="center">
-
-### 📫 Let's Connect
-
-<a href="https://github.com/AdinaAther61">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://fiverr.com/your-username">
-  <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-![Snake animation](https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:323330,100:F7DF1E&height=100&section=footer" width="100%"/>
 
