@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7DF1E,100:323330&height=220&section=header&text=JavaScript%20Journey&fontSize=50&fontColor=323330&animation=fadeIn&fontAlignY=38&desc=Basics%20%E2%86%92%20Projects%20%E2%86%92%20Mastery&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:F7DF1E,100:323330&height=220&section=header&text=JavaScript%20Journey&fontSize=50&fontColor=323330&animation=fadeIn&fontAlignY=38&desc=Basics%20%E2%86%92%20Projects%20%E2%86%92%20Mastery&descAlignY=55&descSize=18" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=F7DF1E&background=00000000&center=true&vCenter=true&width=600&lines=console.log(%22Hello%2C+World!%22);;Learning+JavaScript+one+line+at+a+time;Basics+%2B+Mini+Projects+%2B+Logic+Building" alt="Typing SVG" />
 
 <br/>
 
-![Views](https://komarev.com/ghpvc/?username=AdinaAther61&label=Repo%20Views&color=f7df1e&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/AdinaAther61/Javascript?style=for-the-badge&color=yellow)
 ![Repo Size](https://img.shields.io/github/repo-size/AdinaAther61/Javascript?style=for-the-badge&color=yellow)
 ![Stars](https://img.shields.io/github/stars/AdinaAther61/Javascript?style=for-the-badge&color=yellow)
 
@@ -96,8 +94,7 @@ Javascript/
 - [x] Functions
 - [x] Arrays & Objects
 - [ ] DOM Manipulation (in progress)
-- [ ] Async JS (Promises, fetch)
-- [ ] ES6+ Features
+
 
 ---
 
