@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>object refereneces</title>
+</head>
+<body>
+    <script>
+    let a=5;
+    let b=a;
+    console.log(`${a} ${b}`);
+    a=8;
+    console.log(`${a} ${b}`);//b value remain 5
+    //now object
+    let x={
+        num:5,
+    }
+    let y=x;
+    console.log(`${x.num} ${y.num}`);
+    x.num=4;
+    console.log(`${x.num} ${y.num}`);//objects worked based on reference
+    //do object ko ham direct compare karen ge to wo hamesgha false ayega agar compare karna hai to unke undar ki values ko apas ma karoge change to one reference affect all copies
+    let p={
+        pop:to,
+    };
+    let q={
+        pop:to,
+    };
+    console.log(p===q);
+    </script>
+</body>
+</html>

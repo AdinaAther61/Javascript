@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>practice set object</title>
+</head>
+<body>
+    <script>
+        let product={
+            name:'jeans',
+            size:'small',
+            fit:'slim-fit',
+            'delivery-time':'same day',
+        };
+        let copyproduct=product;
+        console.log(product.name);
+        copyproduct.name='h';
+        console.log(product.name);
+        console.log(copyproduct.name);
+        console.log(product['delivery-time']);
+    //     console.log(product['delivery-time']); we cannot do this
+    //destructuringlet
+    let product1={
+            company:'mango',
+        price:45,
+         'item-name':'T-shirt',};
+         let {company}=product1;
+        //  let company=product.company;
+         console.log(company);
+         //identcal
+         
+    </script>
+</body>
+</html>
